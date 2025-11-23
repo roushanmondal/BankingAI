@@ -1,0 +1,17 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Python
+venv/
+env/
+.env
+.DS_Store
+
+/model_assets/
+banking-key.pem
