@@ -26,6 +26,7 @@
 
 This project implements a **Microservices Architecture** to decouple the web application from the heavy AI inference logic, ensuring scalability and cost-efficiency.
 
+```mermaid
 graph LR
     User["User / Frontend"] -- "HTTPS" --> LB["Nginx (Port 80)"]
     LB --> Backend["Django Backend (EC2)"]
