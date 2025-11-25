@@ -1,6 +1,3 @@
-Here is the complete, updated `README.md` file with the "Future Roadmap" section removed. You can copy and paste this directly into your repository.
-
-````markdown
 # 🏦 Intelligent Banking Support System (BankingAI)
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
@@ -186,6 +183,3 @@ Visit `http://localhost:8000/api/predict/` to test.
   * [GitHub](https://www.google.com/search?q=https://github.com/roushanmondal)
 
 <!-- end list -->
-
-```
-```
