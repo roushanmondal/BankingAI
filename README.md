@@ -180,7 +180,6 @@ Visit `http://localhost:8000/api/predict/` to test.
 
 **Roushan Mondal**
 
-  * [LinkedIn](https://www.google.com/search?q=https://www.linkedin.com/in/roushan03)
-  * [GitHub](https://www.google.com/search?q=https://github.com/roushanmondal)
+  * [LinkedIn](https://github.com/roushanmondal)
 
 <!-- end list -->
