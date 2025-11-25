@@ -34,6 +34,7 @@ graph LR
     Backend -- "JSON Payload" --> Lambda["AWS Lambda (AI Brain)"]
     Lambda -- "Load Model" --> ECR["Docker Container (ECR)"]
     Lambda --> Backend
+```
 
 
 ### **Workflow**
