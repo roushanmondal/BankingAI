@@ -28,9 +28,9 @@ This project implements a **Microservices Architecture** to decouple the web app
 
 ```mermaid
 graph LR
-    User["User / Frontend"] -- "HTTPS" --> LB["Nginx (Port 80)"]
+    User["User / Frontend"] -- HTTPS --> LB["Nginx (Port 80)"]
     LB --> Backend["Django Backend (EC2)"]
-    Backend -- "SQL" --> DB[("PostgreSQL RDS")]
+    Backend -- SQL --> DB[("PostgreSQL RDS")]
     Backend -- "JSON Payload" --> Lambda["AWS Lambda (AI Brain)"]
     Lambda -- "Load Model" --> ECR["Docker Container (ECR)"]
     Lambda --> Backend
