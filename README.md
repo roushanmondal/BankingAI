@@ -26,15 +26,14 @@
 
 This project implements a **Microservices Architecture** to decouple the web application from the heavy AI inference logic, ensuring scalability and cost-efficiency.
 
-```mermaid
 graph LR
-    User[User / Frontend] -- HTTPS --> LB[Nginx (Port 80)]
-    LB --> Backend[Django Backend (EC2)]
-    Backend -- SQL --> DB[(PostgreSQL RDS)]
-    Backend -- JSON Payload --> Lambda[AWS Lambda (AI Brain)]
-    Lambda -- Load Model --> ECR[Docker Container (ECR)]
+    User["User / Frontend"] -- "HTTPS" --> LB["Nginx (Port 80)"]
+    LB --> Backend["Django Backend (EC2)"]
+    Backend -- "SQL" --> DB[("PostgreSQL RDS")]
+    Backend -- "JSON Payload" --> Lambda["AWS Lambda (AI Brain)"]
+    Lambda -- "Load Model" --> ECR["Docker Container (ECR)"]
     Lambda --> Backend
-````
+
 
 ### **Workflow**
 
